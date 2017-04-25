@@ -6,8 +6,6 @@
 .wrapper {
     width: 960px;
     margin: 0 auto 0 auto;
-    padding: 20px;
-
 }
 
 #content {
@@ -29,6 +27,7 @@
 #sidebar{
     float: right;
     width: 270px;
+    background-color: #ffffff;
 }
 
 #sidebar img {
@@ -37,18 +36,19 @@
 }
 
 header {
-    width: 960px;
-    padding: 20px;
+    width: 940px;
+    padding-left: 20px;
     background-color: #ffffff;
     border-color: #cccccc;
     border-style: solid;
 }
 
 footer {
-    width: 960px;
+    width: 940px;
+    padding-left: 20px;
     clear: both;
-    padding: 20px;
     margin-top: 20px;
+    background-color: #666666;
 }
 
 p {

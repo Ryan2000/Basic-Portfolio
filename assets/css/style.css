@@ -9,6 +9,9 @@
     float: left;
     padding-top: 20px;
     padding-bottom: 20px;
+    border-top: solid;
+    border-color: dddddd;
+
 
 
 }
@@ -48,7 +51,6 @@ header {
     margin-left: 20px;
     background-color: #ffffff;
     border-color: #cccccc;
-    border-style: solid;
     margin-bottom: 20px;
 }
 
@@ -71,15 +73,29 @@ p {
     margin-right: 20px;
 }
 
-h1 {
+#Name {
     font-family: Georgia, Times, "Times New Roman", serif;
     margin-left: 20px;
+    margin-top: 10px;
+    background-color: teal;
+    padding: 20px;
+    width: 100px;
+    color: white;
+
+}
+
+h1 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    color: teal;
 }
 
 h2 {
     text-align: right;
     padding-bottom: 10px;
-    
+    color: teal;
+
+
+
 }
 
 nav {

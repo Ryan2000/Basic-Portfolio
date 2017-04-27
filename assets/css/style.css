@@ -23,6 +23,13 @@
     border-color: #dddddd;*/
 }
 
+#content h1 {
+    font-size: xx-large;
+    margin: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+}
+
 .profile-pic {
     width: 140px;
     height: 140px;
@@ -134,7 +141,7 @@ nav > .links {
     width: 200px;
     height: 200px;
     background-image: url("../images/Going_to_the_Sun_960x720.jpeg");
-    }
+}
 
 #NYC {
     width: 200px;
@@ -148,7 +155,7 @@ nav > .links {
     background-image: url("../images/Dreams_960x720.jpeg");
 }
 
-#Dreams {
+#Night {
     width: 200px;
     height: 200px;
     background-image: url("../images/nightlife.jpg");
@@ -158,9 +165,15 @@ nav > .links {
     position: relative;
     color: white;
     background-color: teal;
-    top: 150px;
+    top: 130px;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 88px;
-    padding-right: 87px;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+#Portfolio div {
+    margin: 20px;
+    float: left;
 }

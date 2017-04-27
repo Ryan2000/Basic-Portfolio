@@ -127,7 +127,31 @@ nav > .links {
 #Hangman {
     width: 200px;
     height: 200px;
-    background-image: url("assets/images/Hangman.png");
+    background-image: url("../images/Hangman.png");
+}
+
+#Sun {
+    width: 200px;
+    height: 200px;
+    background-image: url("../images/Going_to_the_Sun_960x720.jpeg");
+    }
+
+#NYC {
+    width: 200px;
+    height: 200px;
+    background-image: url("../images/NYCFresh.png");
+}
+
+#Dreams {
+    width: 200px;
+    height: 200px;
+    background-image: url("../images/Dreams_960x720.jpeg");
+}
+
+#Dreams {
+    width: 200px;
+    height: 200px;
+    background-image: url("../images/nightlife.jpg");
 }
 
 #Portfolio span {

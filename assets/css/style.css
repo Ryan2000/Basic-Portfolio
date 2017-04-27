@@ -4,14 +4,12 @@
 }
 
 .wrapper {
-    width: 960px;
+    width: 100%;
     margin-left: 20px;
     float: left;
     padding-top: 20px;
     padding-bottom: 20px;
-    border-top: solid;
-    border-color: #dddddd;
-
+    background-image: url("../images/old_moon.png");
 
 
 }
@@ -21,8 +19,8 @@
     margin-left: 40px;
     float: left;
     background-color: #ffffff;
-    border-style: solid;
-    border-color: #dddddd;
+    /*border-style: solid;
+    border-color: #dddddd;*/
 }
 
 .profile-pic {
@@ -34,10 +32,11 @@
 }
 
 #sidebar{
-    float: right;
+    float: left;
     width: 270px;
     background-color: #ffffff;
     text-align: right;
+    margin-left: 40px;
 }
 
 #sidebar img {
@@ -47,21 +46,21 @@
 }
 
 header {
-    width: 960px;
+    /*width: 960px;*/
     margin-left: 20px;
     background-color: #ffffff;
     border-color: #cccccc;
-    margin-bottom: 20px;
+    border-bottom: thin;
 }
 
 footer {
-    width: 960px;
+    /*width: 960px;*/
     margin-left: 20px;
     clear: both;
     margin-top: 20px;
     background-color: #666666;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-align: center;
     color: white;
     font-size: small;
@@ -86,24 +85,41 @@ p {
 
 h1 {
     font-family: Georgia, Times, "Times New Roman", serif;
-    color: teal;
+    color: #4aaaa5;
 }
 
 h2 {
-    text-align: right;
-    padding-bottom: 10px;
-    color: teal;
+    color: #4aaaa5;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    text-align: center;
+    padding: 20px;
+
+}
 
 
-
+.left {
+    float:left;
+    padding-left: 20px;
 }
 
 nav {
-    float:right;
+    float: left;
+    margin-top: 30px;
+    margin-left: 600px;
+}
+
+nav > a {
+    color: gray;
 }
 
 nav > .links {
-    border-right: 1px solid grey;
     padding-right: 5px;
 }
 
+#social {
+    float: left;
+    border-top: 1px solid gray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 60px;
+}

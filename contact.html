@@ -1,26 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Contact</title>
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    </head>
 </head>
 
 <body>
-<header>
-    <div>
-        <h1>Ryan Hoyda</h1>
+<header class="demo-border">
+    <div class="left"> <!--First Edit-->
+        <h1 id="Name">Ryan Hoyda</h1>
     </div>
-    <div>
-        <a>About</a>
-        <a>Portfolio</a>
+    <nav>
+        <a class="links">About</a>
+        <a class="links">Portfolio</a>
         <a>Contact</a>
-    </div>
+    </nav>
 </header>
 
-<div class="wrapper2">
+<div class="wrapper">
 
-    <!--About section-->
-    <section id="contact">
+    <!--Contact section-->
+    <section id="content" class="demo-border">
         <h1>Contact</h1><br>
 
         <p>
@@ -41,9 +45,14 @@
             </textarea>
         </p>
 
-        <!--Connect with me sidebar-->
-        <div id="sidebar">
+    </section>
 
+        <!--Connect with me sidebar-->
+    <!--Connect with me sidebar-->
+    <div id="sidebar" class="demo-border">
+
+        <h2>Connect with Me</h2>
+        <div id="social">
             <a href="https://github.com/Ryan2000">
                 <img src="assets/images/social_media_logo_github-128.png" ></a>
 
@@ -52,10 +61,11 @@
 
             <a href="http://stackexchange.com/users/10498450/rhoyda">
                 <img src="assets/images/stackoverflow.png" ></a>
-
         </div>
 
-    </section>
+
+    </div>
+
 
 </div>
 

@@ -123,3 +123,9 @@ nav > .links {
     padding-bottom: 20px;
     margin-left: 60px;
 }
+
+#Portfolio img{
+    width: 200px;
+    height: 200px;
+
+}

@@ -3,30 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-<header>
-    <div>
-        <h1>Ryan Hoyda</h1>
+<header class="demo-border">
+    <div class="left"> <!--First Edit-->
+        <h1 id="Name">Ryan Hoyda</h1>
     </div>
-    <div>
-        <a>About</a>
-        <a>Portfolio</a>
+    <nav>
+        <a class="links">About</a>
+        <a class="links">Portfolio</a>
         <a>Contact</a>
-    </div>
+    </nav>
 </header>
 
-<div class="wrapper3">
+<div class="wrapper demo-border">
 
     <!--About section-->
-    <section id="portfolio">
+    <section id="content" class="demo-border">
         <h1>Portfolio</h1><br>
 
+        <div id="Portfolio">
+            <div>
+                <img class="Sun" src="assets/images/Going_to_the_Sun_960x720.jpeg" >
+                <span>Sun</span>
+            </div>
+            <div>
+                <img class="NYC" src="assets/images/NYCFresh.png" >
+                <span>NYC</span>
+            </div>
+            <div>
+                <img class="Dreams" src="assets/images/Dreams_960x720.jpeg" >
+                <span>Dreams</span>
+            </div>
+            <div>
+                <img class="Hangman" src="assets/images/Hangman.png" >
+                <span>Hangman</span>
+            </div>
+            <div>
+                <img class="Night" src="assets/images/nightlife.jpg" >
+                <span>Night</span>
+            </div>
+        </div>
+    </section>
 
-        <!--Connect with me sidebar-->
-        <div id="sidebar">
 
+    <!--Connect with me sidebar-->
+    <div id="sidebar" class="demo-border">
+
+        <h2>Connect with Me</h2>
+        <div id="social">
             <a href="https://github.com/Ryan2000">
                 <img src="assets/images/social_media_logo_github-128.png" ></a>
 
@@ -35,14 +63,15 @@
 
             <a href="http://stackexchange.com/users/10498450/rhoyda">
                 <img src="assets/images/stackoverflow.png" ></a>
-
         </div>
 
-    </section>
+
+    </div>
+
 
 </div>
 
-<footer>
+<footer class="demo-border">
     @Copyright 2017 Ryan Hoyda
 </footer>
 

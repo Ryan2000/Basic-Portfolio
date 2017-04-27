@@ -117,6 +117,7 @@ nav {
 
 nav > a {
     color: gray;
+    text-decoration: none;
 }
 
 nav > .links {
@@ -181,4 +182,21 @@ nav > .links {
 #About{
     margin-left: 20px;
     margin-bottom: 20px;
+}
+
+#Contact{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#Contact div {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: teal;
+    color: white;
+    width: 75px;
+    height: 30px;
+    border: none;
 }

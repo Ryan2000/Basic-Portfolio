@@ -10,67 +10,67 @@
 </head>
 
 <body>
-<header class="demo-border">
-    <div class="left"> <!--First Edit-->
-        <h1 id="Name">Ryan Hoyda</h1>
-    </div>
-    <nav>
-        <a class="links" href="index.html">About</a>
-        <a class="links" href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-    </nav>
-</header>
-
-<div class="wrapper">
-
-    <!--Contact section-->
-    <section id="content" class="demo-border">
-        <div id="Contact">
-            <div>
-                <label>Name</label><br/>
-                <input name ="Name" type = "text" size ="25">
-            </div>
-            <div>
-                <label>Email</label><br/>
-                <input name ="Email" type = "text" size ="25">
-            </div>
-            <div>
-                <label>Message</label><br/>
-                <textarea name = "comments"
-                         rows = "10" cols = "65">
-                </textarea>
-            </div>
-            <div>
-                <button type="button">Submit</button>
-            </div>
+    <header id="masthead">
+        <div class="container"> <!--First Edit-->
+            <h1 id="logo">Ryan Hoyda</h1>
+            <nav>
+                <a class="links" href="index.html">About</a>
+                <a class="links" href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
         </div>
-    </section>
+    </header>
+
+    <div class="wrapper">
+        <div id="main-container" class="container">
+            <section class="main-section">
+             <!--Contact section-->
+                <h1>Contact</h1>
+                <form id="contact-form">
+                    <ul>
+                        <li>
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+                        </li>
+                        <li>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+                        </li>
+                        <li>
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required="required"></textarea>
+                        </li>
+                    </ul>
+                    <input type="submit">
+                </form>
+
+            </section>
+
 
         <!--Connect with me sidebar-->
-    <!--Connect with me sidebar-->
-    <div id="sidebar" class="demo-border">
+            <section class="sidebar">
+                <div id="connect">
+                    <h2>Connect with Me</h2>
 
-        <h2>Connect with Me</h2>
-        <div id="social">
-            <a href="https://github.com/Ryan2000">
-                <img src="assets/images/social_media_logo_github-128.png" ></a>
+                    <a href="https://github.com/Ryan2000">
+                        <img src="assets/images/social_media_logo_github-128.png" class="social" alt="Github"></a>
 
-            <a href="https://www.linkedin.com/in/ryan-hoyda-9b632222/">
-                <img src="assets/images/linkedin.png" ></a>
+                    <a href="https://www.linkedin.com/in/ryan-hoyda-9b632222/">
+                        <img src="assets/images/linkedin.png" class="social" alt="LinkedIn"></a>
 
-            <a href="http://stackexchange.com/users/10498450/rhoyda">
-                <img src="assets/images/stackoverflow.png" ></a>
+                    <a href="http://stackexchange.com/users/10498450/rhoyda">
+                        <img src="assets/images/stackoverflow.png" class="social" alt="Stack Overflow"></a>
+                </div>
+            </section>
+            <div class="push"></div>
         </div>
-
-
     </div>
 
-
-</div>
-
-<footer>
-    @Copyright 2017 Ryan Hoyda
-</footer>
+    <footer>
+        <div class="container">
+            @Copyright 2017 Ryan Hoyda
+        </div>
+    </footer>
 
 </body>
 </html>
